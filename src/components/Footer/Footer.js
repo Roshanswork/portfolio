@@ -14,7 +14,7 @@ const Footer = () => {
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
         <AiFillPhone size="3rem"/>
-          <LinkItem href="#">7769873064</LinkItem>
+          <LinkItem href="#">+91 7769873064</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>

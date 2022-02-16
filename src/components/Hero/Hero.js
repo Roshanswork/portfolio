@@ -9,7 +9,7 @@ const Hero = (props) => (
   <>
     <Section row nopadding>
       <LeftSection>
-    <img style={{height:'35%', width:"35%", borderRadius:"50%", }} src="images/profile.jpeg" />
+    <img style={{height:'35%', width:"40%", borderRadius:"50%", }} src="images/profile.jpeg" />
         <SectionTitle main center>
           Hay there, <br />
           I am Roshan Jambhulkar
