@@ -15,9 +15,9 @@ const Hero = (props) => (
           I am Roshan Jambhulkar
         </SectionTitle>
         <SectionText>
-       Full-stack web developer
-        </SectionText>
+       Full-stack web developer <br/>
        <a href='https://github.com/Roshanswork' target="_blank"> <Button>Know More</Button></a>
+        </SectionText>
       </LeftSection>
     </Section>
   </>
