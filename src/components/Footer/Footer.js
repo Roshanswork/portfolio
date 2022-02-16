@@ -1,6 +1,6 @@
 import React from 'react';
 import { AiFillFile, AiFillGithub, AiFillGold, AiFillInstagram, AiFillLinkedin, AiFillMail, AiFillPhone } from 'react-icons/ai';
-import { SectionTitle } from '../../styles/GlobalComponents';
+import { SectionText, SectionTitle } from '../../styles/GlobalComponents';
 
 import { SocialIcons } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
@@ -9,6 +9,7 @@ const Footer = () => {
   return (
     <FooterWrapper id='footer'>
       <SectionTitle>Contact</SectionTitle>
+      <SectionText>Fill free to connect with me</SectionText>
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>

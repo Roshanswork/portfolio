@@ -3,6 +3,7 @@ import React from 'react';
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
+import { motion } from "framer-motion"
 
 const Hero = (props) => (
   <>
@@ -14,9 +15,9 @@ const Hero = (props) => (
           I am Roshan Jambhulkar
         </SectionTitle>
         <SectionText>
-        An energetic and clear-headed full-stack web
-developer with a specialization in the MERN stack.
+       Full-stack web developer
         </SectionText>
+       <a href='https://github.com/Roshanswork' target="_blank"> <Button>Know More</Button></a>
       </LeftSection>
     </Section>
   </>

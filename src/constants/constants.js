@@ -4,8 +4,8 @@ export const projects = [
     description: "A website that sells lifestyle products.",
       image: '/images/desertcart.png',
       tags: ['HTML', 'CSS', 'JavaScript'],
-    source: 'https://vsrathod39.github.io/desertcart.in_clone.io/',
-    visit: 'https://github.com/vsrathod39/desertcart.in_clone.io',
+    source: 'https://github.com/vsrathod39/desertcart.in_clone.io',
+    visit: 'https://vsrathod39.github.io/desertcart.in_clone.io/',
     id: 0,
   },
   {
