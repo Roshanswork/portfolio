@@ -4,6 +4,8 @@ import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, 
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { TimeLineData } from '../../constants/constants';
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
+import { SocialIcons } from '../Header/HeaderStyles';
+import { SocialContainer } from '../Footer/FooterStyles';
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
@@ -55,10 +57,7 @@ to work in a fast-paced company that can
 contribute to his personal growth.
       
       </SectionText>
-      <SectionText>
-      <AiFillGithub  style={{margin:"0  15px 0 0"}} size="3rem"/>
-      <AiFillLinkedin size="3rem"/>
-      </SectionText>
+    
       {/* <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {/* {TimeLineData.map((item, index) => (
