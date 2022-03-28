@@ -7,6 +7,7 @@ import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import { SocialIcons } from '../Header/HeaderStyles';
 import { SocialContainer } from '../Footer/FooterStyles';
 
+
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
 const Timeline = () => {
@@ -57,6 +58,8 @@ to work in a fast-paced company that can
 contribute to his personal growth.
       
       </SectionText>
+
+  
     
       {/* <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

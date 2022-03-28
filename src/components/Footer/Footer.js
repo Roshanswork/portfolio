@@ -9,6 +9,7 @@ const Footer = () => {
   return (
     <FooterWrapper id='footer'>
       <SectionTitle>Contact</SectionTitle>
+      
       <SectionText>Fill free to connect with me</SectionText>
       <LinkList>
         <LinkColumn>
