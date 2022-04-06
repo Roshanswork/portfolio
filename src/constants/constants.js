@@ -25,6 +25,16 @@ export const projects = [
     source: 'https://github.com/nkil123/MyntraFullStack',
     visit: 'https://mysterious-depths-64439.herokuapp.com/',
     id: 1,
+  },
+  
+  {
+    title: 'Medium clone',
+    description:"A platform where undiscovered voices can share their writing on any topic.",
+    image: 'images/medium.png',
+    tags: ['HTML', 'CSS', 'JavaScript', "React", "Redux"],
+    source: 'https://github.com/Roshanswork/Medium-clone',
+    visit: 'https://medium-clone-gules.vercel.app/',
+    id: 1,
   }
   
 ]
