@@ -34,7 +34,7 @@ const Footer = () => {
           <SocialIcons href="https://www.linkedin.com/in/roshan-jambhulkar-0a0861136/" target="_blank">
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://drive.google.com/file/d/1hWlJawSq24vxBXvtVHd4wlCO3uMmoSte/view?usp=sharing" target="_blank">
+          <SocialIcons href="https://drive.google.com/file/d/1a-qL_r6s5ElbVRxn7CX3XcQUzex8KT7s/view?usp=sharing" target="_blank">
             <AiFillFile size="3rem" />
           </SocialIcons>
         </SocialContainer>
