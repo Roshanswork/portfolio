@@ -1,36 +1,36 @@
-import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
+import React from "react";
+import { DiFirebase, DiReact, DiZend } from "react-icons/di";
+import {
+  Section,
+  SectionDivider,
+  SectionText,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
+import {
+  List,
+  ListContainer,
+  ListItem,
+  ListParagraph,
+  ListTitle,
+} from "./TechnologiesStyles";
 
-const Technologies = () =>  (
+const Technologies = () => (
   <Section id="tech">
     <SectionDivider divider />
     <SectionTitle>Skills</SectionTitle>
     <List>
-      
       <ListItem>
         <picture>
           <DiReact size="3rem" />
         </picture>
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
-          <ListParagraph>
-            HTML
-          </ListParagraph>
-          <ListParagraph>
-            CSS
-          </ListParagraph>
-          <ListParagraph>
-            JavaScript
-          </ListParagraph>
-          <ListParagraph>
-            Node.js
-          </ListParagraph>
-          <ListParagraph>
-            React.js
-          </ListParagraph>
-          
+          <ListParagraph>HTML</ListParagraph>
+          <ListParagraph>CSS</ListParagraph>
+          <ListParagraph>JavaScript</ListParagraph>
+          <ListParagraph>Node.js</ListParagraph>
+          <ListParagraph>React.js</ListParagraph>
+          <ListParagraph>React Native</ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
@@ -39,9 +39,7 @@ const Technologies = () =>  (
         </picture>
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
-          <ListParagraph>
-            MongoDB
-          </ListParagraph>
+          <ListParagraph>MongoDB</ListParagraph>
           Express
         </ListContainer>
       </ListItem>
@@ -51,12 +49,10 @@ const Technologies = () =>  (
         </picture>
         <ListContainer>
           <ListTitle>Tools</ListTitle>
-          <ListParagraph>
-            Postman
-          </ListParagraph>
-          <ListParagraph>
-            GitHub
-          </ListParagraph>
+          <ListParagraph>Android Studio</ListParagraph>
+          <ListParagraph>XCode</ListParagraph>
+          <ListParagraph>Postman</ListParagraph>
+          <ListParagraph>GitHub</ListParagraph>
         </ListContainer>
       </ListItem>
     </List>

@@ -1,12 +1,26 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect } from "react";
 
-import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { TimeLineData } from '../../constants/constants';
-import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
-import { SocialIcons } from '../Header/HeaderStyles';
-import { SocialContainer } from '../Footer/FooterStyles';
-
+import {
+  CarouselButton,
+  CarouselButtonDot,
+  CarouselButtons,
+  CarouselContainer,
+  CarouselItem,
+  CarouselItemImg,
+  CarouselItemText,
+  CarouselItemTitle,
+  CarouselMobileScrollNode,
+} from "./TimeLineStyles";
+import {
+  Section,
+  SectionDivider,
+  SectionText,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
+import { TimeLineData } from "../../constants/constants";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import { SocialIcons } from "../Header/HeaderStyles";
+import { SocialContainer } from "../Footer/FooterStyles";
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
@@ -23,7 +37,7 @@ const Timeline = () => {
 
   //   if (carouselRef.current) {
   //     const scrollLeft = Math.floor(carouselRef.current.scrollWidth * 0.7 * (i / TimeLineData.length));
-      
+
   //     scroll(carouselRef.current, scrollLeft);
   //   }
   // }
@@ -51,16 +65,14 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      An energetic and clear-headed full-stack web
-developer with a specialization in the MERN stack.
-Curious to learn new things with a keen interest
-to work in a fast-paced company that can
-contribute to his personal growth.
-      
+        Result-driven Front-end developer with expertise in building functional
+        and visually appealing user interface using React native, React js, and
+        related technologies. Proficient in HTML, CSS, and, JavaScript. With a
+        strong command of front-end developments tools and practices.
+        Collaborative team player with excellent problem solving skills,
+        dedicated to delivering high quality, scalable code.
       </SectionText>
 
-  
-    
       {/* <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {/* {TimeLineData.map((item, index) => (

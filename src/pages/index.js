@@ -1,12 +1,13 @@
-import Acomplishments from '../components/Acomplishments/Acomplishments';
-import BgAnimation from '../components/BackgrooundAnimation/BackgroundAnimation';
-import Hero from '../components/Hero/Hero';
-import NavDropDown from '../components/NavDropDown';
-import Projects from '../components/Projects/Projects';
-import Technologies from '../components/Technologies/Technologies';
-import Timeline from '../components/TimeLine/TimeLine';
-import { Layout } from '../layout/Layout';
-import { Section } from '../styles/GlobalComponents';
+import Acomplishments from "../components/Acomplishments/Acomplishments";
+import BgAnimation from "../components/BackgrooundAnimation/BackgroundAnimation";
+import Experience from "../components/Experience/Experience";
+import Hero from "../components/Hero/Hero";
+import NavDropDown from "../components/NavDropDown";
+import Projects from "../components/Projects/Projects";
+import Technologies from "../components/Technologies/Technologies";
+import Timeline from "../components/TimeLine/TimeLine";
+import { Layout } from "../layout/Layout";
+import { Section } from "../styles/GlobalComponents";
 
 const Home = () => {
   return (
@@ -15,11 +16,11 @@ const Home = () => {
         <Hero />
         <BgAnimation />
       </Section>
+      <Experience />
       <Projects />
       <Technologies />
-       <Timeline />
+      <Timeline />
       {/* <Acomplishments />  */}
-
     </Layout>
   );
 };
