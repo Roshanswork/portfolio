@@ -28,7 +28,7 @@ const Footer = () => {
     <FooterWrapper id="footer">
       <SectionTitle>Contact</SectionTitle>
 
-      <SectionText>Fill free to connect with me</SectionText>
+      <SectionText>Feel free to connect with me</SectionText>
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>

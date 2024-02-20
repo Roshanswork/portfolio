@@ -28,18 +28,13 @@ const Header = () => (
     </Div1>
     <Div2>
       <li>
-        <Link href="#experience">
-          <NavLink>Experience</NavLink>
+        <Link href="#tech">
+          <NavLink>Skills</NavLink>
         </Link>
       </li>
       <li>
         <Link href="#projects">
           <NavLink>Projects</NavLink>
-        </Link>
-      </li>
-      <li>
-        <Link href="#tech">
-          <NavLink>Skills</NavLink>
         </Link>
       </li>
       <li>
@@ -65,7 +60,8 @@ const Header = () => (
       </SocialIcons>
 
       <SocialIcons
-        href="https://drive.google.com/file/d/18I8FWmENZe-sCACWK_FVjo0_AfuoZ1-K/view?usp=sharing"
+        href="./ROSHAN-JAMBHULKAR-RESUME.pdf"
+        download="ROSHAN-JAMBHULKAR-RESUME.pdf"
         target="_blank"
       >
         <AiFillFile size="3rem" />
