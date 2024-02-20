@@ -56,7 +56,8 @@ const Footer = () => {
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
           <SocialIcons
-            href="https://drive.google.com/file/d/18I8FWmENZe-sCACWK_FVjo0_AfuoZ1-K/view?usp=sharing"
+            href="resume/ROSHAN-JAMBHULKAR-RESUME.pdf"
+            download="ROSHAN-JAMBHULKAR-RESUME.pdf"
             target="_blank"
           >
             <AiFillFile size="3rem" />

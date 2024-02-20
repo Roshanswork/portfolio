@@ -60,7 +60,7 @@ const Header = () => (
       </SocialIcons>
 
       <SocialIcons
-        href="./ROSHAN-JAMBHULKAR-RESUME.pdf"
+        href="resume/ROSHAN-JAMBHULKAR-RESUME.pdf"
         download="ROSHAN-JAMBHULKAR-RESUME.pdf"
         target="_blank"
       >
